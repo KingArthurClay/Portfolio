@@ -1,15 +1,49 @@
-html {  background-color: darkslategrey;
-        color: white;
-        text-decoration-color: ghostwhite;
-        text-emphasis-color: whitesmoke;}
+* {background-color: rgb(8, 9, 20);
+    color: white;
+    text-decoration-color: green;
+    text-justify: left;
+}
 
-p { font-family: "Times New Roman", Times, serif;
+p {font-family: "Times New Roman", Times, serif;
     font-size: 12px;
     letter-spacing: 0px;
-    word-spacing: 0.4px;
-    color: #000000;
+    word-spacing: 0.4pt;
     font-weight: normal;
     text-decoration: none;
     font-style: normal;
     font-variant: normal;
-    text-transform: none;}
+    text-transform: none;
+    margin: 20pt 10pt; 
+}
+
+em {
+    color: ghostwhite;
+}
+
+div.columnLeft {
+    display: inline-block;
+    width: 33%;
+    margin: auto;
+    align-content: center;
+    align-self: left;
+}
+
+div.columnRight {
+    display: inline-block;
+    width: 33%;
+    margin: auto;
+    align-content: center;
+    align-self: right;
+}
+
+div.columnCenter {
+    display: inline-block;
+    width: 33%;
+    margin: auto;
+    align-content: center;
+    align-self: center;
+}
+
+#bio * {
+    display: inline;
+}
