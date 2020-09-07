@@ -47,3 +47,7 @@ div.columnCenter {
 #bio * {
     display: inline;
 }
+
+#bio img {
+    size: 15%;
+}
