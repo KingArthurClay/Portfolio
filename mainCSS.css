@@ -1,6 +1,6 @@
 * {background-color: rgb(8, 9, 20);
     color: white;
-    text-decoration-color: green;
+    text-decoration-color: whitesmoke;
     text-justify: left;
 }
 
@@ -44,10 +44,20 @@ div.columnCenter {
     align-self: center;
 }
 
-#bio * {
+#bio p {
     display: inline;
+    clear: none;
 }
 
 #bio img {
-    size: 15%;
+    float: right;
+    margin: 15pt;
+    outline: solid;
+    outline-width: 2pt;
+    outline-color: ghostwhite;
+    outline-offset: 7pt;
+}
+
+hr {
+    margin:5pt;
 }
