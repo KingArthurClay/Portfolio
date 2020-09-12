@@ -13,7 +13,21 @@ p {font-family: "Times New Roman", Times, serif;
     font-style: normal;
     font-variant: normal;
     text-transform: none;
-    margin: 20pt 10pt; 
+}
+
+.projectlink:link {
+    color: ghostwhite;
+    text-decoration-color: ghostwhite;
+}
+
+.projectlink:hover {
+    color: crimson;
+    text-decoration-color: crimson;
+}
+
+.projectlink:visited {
+    color: antiquewhite;
+    text-decoration-color: antiquewhite;
 }
 
 em {
@@ -21,32 +35,27 @@ em {
 }
 
 div.columnLeft {
+    top: 3%;
     display: inline-block;
     width: 33%;
-    margin: auto;
-    align-content: center;
-    align-self: left;
 }
 
 div.columnRight {
+    top: 3%;
     display: inline-block;
     width: 33%;
-    margin: auto;
-    align-content: center;
-    align-self: right;
 }
 
 div.columnCenter {
+    top: 3%;
     display: inline-block;
     width: 33%;
-    margin: auto;
-    align-content: center;
-    align-self: center;
 }
 
 #bio p {
     display: inline;
     clear: none;
+    margin: 5% 3%;
 }
 
 #bio img {
@@ -63,8 +72,26 @@ hr {
 }
 
 h1 {
+    text-align: center;
     outline: solid;
     outline-width: 2pt;
     outline-color: ghostwhite;
-    border: 4pt;
+    padding: 1%;
+    margin: 3%;
+}
+
+li {
+    font-size: 12pt;
+}
+
+li p {
+    margin-top: 1%;
+    border: 0pt;
+}
+
+h2 {
+    font-size: 16pt;
+    margin-bottom: 0pt;
+    border-bottom: 0pt;
+    padding-bottom: 0pt;
 }
