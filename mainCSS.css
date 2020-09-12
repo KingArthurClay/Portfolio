@@ -59,5 +59,12 @@ div.columnCenter {
 }
 
 hr {
-    margin:5pt;
+    margin: 5pt;
+}
+
+h1 {
+    outline: solid;
+    outline-width: 2pt;
+    outline-color: ghostwhite;
+    border: 4pt;
 }
