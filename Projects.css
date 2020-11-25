@@ -1,0 +1,26 @@
+.projectList {
+    display: block;
+    margin-bottom: 100pt;
+}
+
+.projectName {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+.projectLink {
+    display: block;
+}
+
+.projectText {
+    display: block;
+    text-align: center;
+}
+
+.projectImg {
+    width: 25%;
+    height: 25%;
+    display: inline-block;
+    float: right;
+}
