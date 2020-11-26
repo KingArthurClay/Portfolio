@@ -42,7 +42,6 @@ div.columnLeft {
     top: 3%;
     display: inline-block;
     width: 33%;
-    
 }
 
 div.columnRight {
@@ -57,10 +56,19 @@ div.columnCenter {
     width: 33%;
 }
 
+div.columnLeft > p {
+    margin: 3%;
+}
+
+div.columnCenter > p {
+    margin: 3%;
+}
+
 #bio p {
     display: inline;
     clear: none;
-    margin: 5% 3%;
+    margin: 10% 3%;
+    vertical-align: text-top;
 }
 
 #bio img {
@@ -130,14 +138,16 @@ a {
     font-style: italic;
 }
 
-.beegLink > a {
-    all: initial;
-}
-
 a.returnToFront {
     width: 25%;
     margin: auto;
     display: block;
     text-align: center;
     font-size: 10pt;
+}
+
+.focusParagraph {
+    width: 80%;
+    font-size: 12pt;
+    margin: 3% 10%;
 }
