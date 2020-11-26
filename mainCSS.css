@@ -4,10 +4,11 @@
     text-justify: left;
 }
 
-p {font-family: "Times New Roman", Times, serif;
-    font-size: 12px;
-    letter-spacing: 0px;
-    word-spacing: 0.4pt;
+p {font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 16px;
+    letter-spacing: -0.2px;
+    word-spacing: 0px;
+    color: #000000;
     font-weight: normal;
     text-decoration: none;
     font-style: normal;
@@ -18,16 +19,19 @@ p {font-family: "Times New Roman", Times, serif;
 .projectlink:link {
     color: ghostwhite;
     text-decoration-color: ghostwhite;
+    font-style: normal;
 }
 
 .projectlink:hover {
     color: crimson;
     text-decoration-color: crimson;
+    font-style: normal;
 }
 
 .projectlink:visited {
     color: antiquewhite;
     text-decoration-color: antiquewhite;
+    font-style: normal;
 }
 
 em {
@@ -38,6 +42,7 @@ div.columnLeft {
     top: 3%;
     display: inline-block;
     width: 33%;
+    
 }
 
 div.columnRight {
@@ -94,4 +99,45 @@ h2 {
     margin-bottom: 0pt;
     border-bottom: 0pt;
     padding-bottom: 0pt;
+}
+
+h1 > a {
+    font-size: 32px;
+    outline: none;
+    text-decoration: none;
+}
+
+a {
+    color:ghostwhite;
+}
+
+.beegLink:link {
+    color: ghostwhite;
+}
+
+.beegLink:hover {
+    color: ghostwhite;
+    font-style: italic;
+}
+
+.beegLink:active {
+    color: ghostwhite;
+    font-style: oblique;
+}
+
+.beegLink:visited {
+    color: ghostwhite;
+    font-style: italic;
+}
+
+.beegLink > a {
+    all: initial;
+}
+
+a.returnToFront {
+    width: 25%;
+    margin: auto;
+    display: block;
+    text-align: center;
+    font-size: 10pt;
 }
