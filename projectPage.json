@@ -1,0 +1,16 @@
+{
+"projects" : [
+    {
+        "name": "Melody Star",
+        "link": "http://vgdev.gtorg.gatech.edu/game/melody-star/",
+        "img": "images/MelodyStarTitle.png",
+        "text": "Melody Star was a rythym/piano-playing game developed by Georgia Tech students through the VGDev club. I contributed the art, story and writing for the pixel art band."
+    },
+    {
+        "name": "Lunacia",
+        "link": "http://vgdev.gtorg.gatech.edu/game/lunacia/",
+        "img": "images/Lunacia.png",
+        "text": "Lunancia is a relaxed adventure game. The player controls a young girl exploring the depths of her psyche by flying around several levels. I contributed code for the character controls and Beholder enemy with other members of Georgia Tech VGDev."
+    }
+]
+}

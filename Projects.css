@@ -1,4 +1,4 @@
-.projectList {
+.projectListElement {
     clear: right;
 }
 
@@ -15,6 +15,7 @@
 .projectText {
     display: block;
     text-align: center;
+    margin-right: 20pt
 }
 
 .projectImg {
@@ -22,4 +23,5 @@
     height: 25%;
     display: inline-block;
     float: right;
+    margin: 5pt;
 }
