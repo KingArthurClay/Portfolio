@@ -1,41 +1,47 @@
 <!Doctype HTML>
 
 <html lang="en">
-    <head>
-        <meta charset="utf-8"/>
-        <!--One link is for testing locally, one is the github deployment.-->
-        <link rel="stylesheet" type="text/css" href="/mainCSS.css"/>
-        <link rel="stylesheet" type="text/css" href="/Portfolio/mainCSS.css" />
-        <link rel="stylesheet" type="text/css" href="/Projects.css"/>
-        <link rel="stylesheet" type="text/css" href="/Portfolio/Projects.css"/>
-    </head>
-    <body>
-        <h1>Previous Projects</h1>
-        <hr/>
+
+<head>
+    <meta charset="utf-8" />
+    <!--One link is for testing locally, one is the github deployment.-->
+    <link rel="stylesheet" type="text/css" href="/mainCSS.css" />
+    <link rel="stylesheet" type="text/css" href="/Portfolio/mainCSS.css" />
+    <link rel="stylesheet" type="text/css" href="/Projects.css" />
+    <link rel="stylesheet" type="text/css" href="/Portfolio/Projects.css" />
+    <script type="text/javascript" src="loadProjects.js"></script>
+    <script type="text/javascript" src="/Portfolio/loadProjects.js"></script>
+</head>
+
+<body>
+    <h1>Previous Projects</h1>
+    <hr />
+    <div id="projectsList">
         <div class="projectList">
             <div class="projectDiv">
                 <h2 class="projectName">Melody Star</h2>
                 <a class="projectLink" style="display: block" href="http://vgdev.gtorg.gatech.edu/game/melody-star/" target="_blank">Project Page</a>
-                <img class="projectImg" src="images/MelodyStarTitle.png"/>
+                <img class="projectImg" src="images/MelodyStarTitle.png" />
                 <p class="projectText">
                     Melody Star was a rythym/piano-playing game developed by Georgia Tech students through the VGDev club. I contributed the art, story and writing for the pixel art band.
                 </p>
             </div>
         </div>
-        <hr/>
-        <div class="projectList" >
-            <div class="projectDiv" class="softboxed">
+        <hr />
+        <div class="projectList">
+            <div class="projectDiv">
                 <h2 class="projectName">Lunacia</h2>
                 <a class="projectLink" href="http://vgdev.gtorg.gatech.edu/games/" target="_blank">Project Page</a>
-                <!--img class="projectImg" src="images/MelodyStarTitle.png"/-->
-                <!--VGDev uploads finished projects after a public demo and some polishing has been done. Before Nov 27 I'm not able to link to a project page-->
+                <img class="projectImg" src="images/Lunacia.png" />
                 <p class="projectText">
-                    Lunancia is a relaxed adventure game. The player controls a young girl exploring the depths of her psyche by flying around several levels. I contributed code for the controls and Beholder enemy with other members of Georgia Tech VGDev. <br/> <br/> The Project Page will be available after November 27th, 2020.
+                    Lunancia is a relaxed adventure game. The player controls a young girl exploring the depths of her psyche by flying around several levels. I contributed code for the controls and Beholder enemy with other members of Georgia Tech VGDev.
                 </p>
             </div>
         </div>
-        <div>
-            <a class="returnToFront" href="index.html">Main Page</a>
-        </div>
-    </body>
+    </div>
+    <div>
+        <a class="returnToFront" href="index.html">Main Page</a>
+    </div>
+</body>
+
 </html>

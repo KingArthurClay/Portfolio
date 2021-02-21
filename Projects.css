@@ -1,6 +1,5 @@
 .projectList {
-    display: block;
-    margin-bottom: 50pt;
+    clear: right;
 }
 
 .projectName {
