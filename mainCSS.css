@@ -18,21 +18,21 @@ p {
     text-transform: none;
 }
 
-.projectlink:link {
+.projectLink:link {
     color: ghostwhite;
     text-decoration-color: ghostwhite;
     font-style: normal;
 }
 
-.projectlink:hover {
+.projectLink:hover {
     color: crimson;
     text-decoration-color: crimson;
     font-style: normal;
 }
 
-.projectlink:visited {
+.projectLink:visited {
     color: antiquewhite;
-    text-decoration-color: antiquewhite;
+    text-decoration-color: lightcoral;
     font-style: normal;
 }
 

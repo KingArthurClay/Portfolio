@@ -2,6 +2,10 @@
     clear: right;
 }
 
+hr {
+    clear: right;
+}
+
 .projectName {
     margin: auto;
     width: 50%;

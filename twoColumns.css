@@ -1,0 +1,13 @@
+/* Disables the left column of the portolio, expands the other two */
+
+div.columnLeft {
+    display: none;
+}
+
+div.columnCenter {
+    width: 50%;
+}
+
+div.columnRight {
+    width: 50%;
+}
